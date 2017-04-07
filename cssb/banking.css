@@ -22,3 +22,11 @@ form {
 	margin-right: 300px;
 	margin-left: 100px;
 }
+
+#emailadd:valid {
+	background-color: green;
+}
+
+#emailadd:invalid {
+	background-color: red;
+}
