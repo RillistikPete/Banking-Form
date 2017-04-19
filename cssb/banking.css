@@ -2,16 +2,25 @@ body {
 	background-color: azure;
 }
 h1 {
+	background-color: rgba(109, 212, 0, 0.5);
 	text-align: center;
 }
 
 h2 {
-	margin-left: 200px;
+	text-align: center;
 }
 .major {
-	width: 100%;
-	margin: 2px 0 0 10px;
+	margin: auto;
 	font-family: Helvetica, sans-serif;
+}
+
+fieldset {
+	background-image: url(http://www.officialpsds.com/images/thumbs/loose-leaf-paper-psd13988.png);
+	background-size: contain;
+	width: 40%;
+	margin: auto;
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px #000;
 }
 
 textarea {
@@ -19,8 +28,7 @@ textarea {
 }
 
 form {
-	margin-right: 300px;
-	margin-left: 100px;
+	margin: auto;
 }
 
 #emailadd:valid {
